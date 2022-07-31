@@ -1,0 +1,49 @@
+:root {
+    font-family: Loto, sans-serif;
+    color: antiquewhite;
+    background-color: #1b1b32;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .to-do-list {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .header {
+    position: relative;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .main {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tareas {
+    width: 80%;
+    min-height: 80vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .footer__a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 11px;
+    color: white;
+  }
