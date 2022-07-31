@@ -1,6 +1,5 @@
 import './App.css';
-import Tarea from '../src/componentes/Tarea';
-import Formulario from '../src/componentes/Formulario';
+import ListaDeTareas from '../src/componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -10,8 +9,7 @@ function App() {
       </header>
       <main className='main'>
         <article className='tareas'>
-          <Formulario />
-          <Tarea texto='aprender react' />
+          <ListaDeTareas />
         </article>
       </main>
       <footer className='footer'>
