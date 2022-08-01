@@ -20,7 +20,7 @@ function Formulario(props) {
     };
     
     return(
-        <form onSubmit={manejarEnvio}>
+        <form onSubmit={manejarEnvio} className='form'>
             <input className='tarea__input' type='text' placeholder='Escribe una tarea' name='texto' onChange={manejarCambio}/>
             <button className='tarea__boton'>
                 Agregar tarea

@@ -1,3 +1,6 @@
+.form {
+    display: flex;
+}
 .tarea__input {
     width: 70%;
     height: 40px;
